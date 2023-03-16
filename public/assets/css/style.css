@@ -256,11 +256,12 @@ p {
 .offers_wrapper .card .offer-text {
     width: 50%;
     height: 100%;
-    background-color: var(--bg-black);
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: black;
 
 }
 

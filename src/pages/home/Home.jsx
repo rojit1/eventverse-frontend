@@ -1,4 +1,4 @@
-import React from 'react'
+import './Home.css';
 
 function Home() {
   return (
@@ -145,26 +145,14 @@ function Home() {
           <div className="col-md-6 mb-4">
             <div className="card rounded-0" style={{backgroundImage:`url('/assets/images/party.jpeg')`}}>
               <div className="offer-text bg-black bg-opacity-50">
-                <h3 className="text-white">Prty yuh hi chalegi</h3>
-                <p className="text-danger"> <i className="fas fa-heart fa-xl"> 103 k</i> </p>
-                <a href="#" className="main-btn mt-3"> Details </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 mb-4">
-            <div className="card rounded-0" style={{backgroundImage:`url('/assets/images/party.jpeg')`}}>
-              <div className="offer-text bg-black bg-opacity-50">
-                <h3 className="text-white">Party hori hai</h3>
-                <p className="text-danger"> <i className="fas fa-heart fa-xl"> 100 k</i> </p>
-                <a href="#" className="main-btn mt-3"> Details </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-6 mb-4">
-            <div className="card rounded-0" style={{backgroundImage:`url('/assets/images/party.jpeg')`}}>
-              <div className="offer-text bg-black bg-opacity-50">
-                <h3 className="text-white">Double Burger</h3>
-                <p className="text-danger"> <i className="fas fa-heart fa-xl"> 100 k</i> </p>
+                <h3>Prty yuh hi chalegi</h3>
+                <p className='fw-bold'><i className='text-primary fa fa-map-marker'></i>Kathmandu</p>
+                <p className="likes_count"> <i className="fas fa-heart fa-xl">
+                    <span>1</span>
+                    <span>0</span>
+                    <span>0</span>
+                    <span>0</span>
+                  </i> </p>
                 <a href="#" className="main-btn mt-3"> Details </a>
               </div>
             </div>

@@ -25,7 +25,7 @@ function Navbar() {
                                 <NavLink to="/events" exact className="nav-link" href="">Events</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="">Gallery</a>
+                                <NavLink to="/gallery" className="nav-link" href="">Gallery</NavLink>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href=""> <i className="text-danger fas fa-heart"></i>  Wishlist</a>

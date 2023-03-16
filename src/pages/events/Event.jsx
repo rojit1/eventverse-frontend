@@ -31,7 +31,7 @@ function Event() {
 					<div className="card h-100 border-dark mx-1">
 						<div className="d-flex align-items-center justify-content-center">
 							<img src="/assets/images/party.jpeg" alt="event" className="card-img-top" />
-							<span className="price-section text-center">100$</span>
+							<div className="price-section d-flex justify-content-center align-items-center"><p className='fw-bold mt-2'>Nrs 9000/</p></div>
 						</div>
 						<div className="card-body align-items-center">
 							<h4 className="card-title">Hello This is the</h4>
@@ -57,8 +57,11 @@ function Event() {
 
 				<div className="col-12 col-md-4">
 					<div className="card h-100 border-dark mx-1">
-						<img src="/assets/images/eminem.png" alt="event" className="card-img-top" />
-						<div className="card-body text-center">
+						<div className="d-flex align-items-center justify-content-center">
+							<img src="/assets/images/party.jpeg" alt="event" className="card-img-top" />
+							<div className="price-section d-flex justify-content-center align-items-center"><p className='fw-bold mt-2'>Nrs 7800/</p></div>
+						</div>
+						<div className="card-body align-items-center">
 							<h4 className="card-title">Hello This is the</h4>
 							<p className="card-text">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum labore veritatis minus,
@@ -77,14 +80,15 @@ function Event() {
 								<i className="fas fa-plus fa-2x"></i>
 							</div>
 						</div>
-
 					</div>
 				</div>
-
-				<div className="col-12 col-md-4 ">
+				<div className="col-12 col-md-4">
 					<div className="card h-100 border-dark mx-1">
-						<img src="/assets/images/party.jpeg" alt="event" className="card-img-top" />
-						<div className="card-body text-center">
+						<div className="d-flex align-items-center justify-content-center">
+							<img src="/assets/images/party.jpeg" alt="event" className="card-img-top" />
+							<div className="price-section d-flex justify-content-center align-items-center"><p className='fw-bold mt-2'>Nrs 4200/</p></div>
+						</div>
+						<div className="card-body align-items-center">
 							<h4 className="card-title">Hello This is the</h4>
 							<p className="card-text">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum labore veritatis minus,
@@ -103,14 +107,15 @@ function Event() {
 								<i className="fas fa-plus fa-2x"></i>
 							</div>
 						</div>
-
 					</div>
 				</div>
-
-				<div className="col-12 col-md-4 ">
+				<div className="col-12 col-md-4">
 					<div className="card h-100 border-dark mx-1">
-						<img src="/assets/images/party.jpeg" alt="event" className="card-img-top" />
-						<div className="card-body text-center">
+						<div className="d-flex align-items-center justify-content-center">
+							<img src="/assets/images/party.jpeg" alt="event" className="card-img-top" />
+							<div className="price-section d-flex justify-content-center align-items-center"><p className='fw-bold mt-2'>Nrs 560/</p></div>
+						</div>
+						<div className="card-body align-items-center">
 							<h4 className="card-title">Hello This is the</h4>
 							<p className="card-text">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum labore veritatis minus,
@@ -129,7 +134,6 @@ function Event() {
 								<i className="fas fa-plus fa-2x"></i>
 							</div>
 						</div>
-
 					</div>
 				</div>
 

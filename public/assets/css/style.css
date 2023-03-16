@@ -342,17 +342,23 @@ p {
 .events_wrapper .container{
     padding-top: 50px;
 }
+.events_wrapper .card{
+    box-shadow: 5px 5px 5px rgb(160, 199, 160);
+}
 
 .events_wrapper .price-section{
     position: absolute;
-    color:red;
     right :0;
     top: 20px;
     width:100px;
-    height: 80px;
+    height: 60px;
     background-color: var(--bg-gray);
     border-radius: 50% 0 0 50%;
-    opacity: 0.7;
+    border: 2px solid rgb(53, 180, 104);
+}
+.events_wrapper .price-section p{
+    color:rgb(20, 21, 20);
+    font-family: OLD TIMES MT;
 }
 
 

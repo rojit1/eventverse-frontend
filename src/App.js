@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './layouts/Navbar';
+import Footer from './layouts/Footer';
+import Home from './pages/home/Home';
+import Event from './pages/events/Event';
+import EventDetail from './pages/events/EventDetail';
+import Login from './pages/auth/Login';
+import Register from './pages/auth/Register';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+
+        <Route path="/events">
+          <Route path="" element={<Event />} />
+          <Route path=":id" element={<EventDetail />} />
+        </Route>
+
+        <Route path="*" element={<Navigate to="/" replace={true} />} />
+
+
+
+        
+      </Routes>
+      <Footer />
+      </BrowserRouter>
     </div>
   );
 }

@@ -8,6 +8,7 @@ import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import Gallery from './pages/gallery/Gallery';
+import Profile from './pages/profile/Profile';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
           <Route path=":id" element={<EventDetail />} />
         </Route>  
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/profile" element={<Profile />} />
+
         <Route path="*" element={<Navigate to="/" replace={true} />} />
 
 

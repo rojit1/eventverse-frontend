@@ -34,7 +34,7 @@ function Navbar() {
                                 <NavLink className="main-btn" to="/register" exact href="">Sign Up</NavLink>
                             </li>
                             <li className="nav-item mt-3 mt-lg-0">
-                                <a className="main-btn" href=""> <i className="fas fa-user"></i>  Profile</a>
+                                <NavLink className="main-btn" to="/profile"> <i className="fas fa-user"></i>  Profile</NavLink>
                             </li>
                         </ul>
                     </div>

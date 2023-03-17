@@ -18,12 +18,12 @@ function Profile() {
                         <div className="col-md-6">
                             <div className="profile-head">
                                 <h5>
-                                    Kshiti Ghelani
+                                    Some Person
                                 </h5>
                                 <h6>
-                                    Web Developer and Designer
+                                    100 likes
                                 </h6>
-                                <p className="proile-rating">RANKINGS : <span>8/10</span></p>
+                                <p className="proile-rating"></p>
                                 <ul className="nav nav-tabs" id="myTab" role="tablist">
                                     <li className="nav-item">
                                         <a className="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
@@ -58,7 +58,7 @@ function Profile() {
                                             <label>Name</label>
                                         </div>
                                         <div className="col-md-6">
-                                            <p>Noor Kohi</p>
+                                            <p>Some Person</p>
                                         </div>
                                     </div>
                                     <div className="row">
@@ -66,7 +66,7 @@ function Profile() {
                                             <label>Email</label>
                                         </div>
                                         <div className="col-md-6">
-                                            <p>torinoor@gmail.com</p>
+                                            <p>someperson@gmail.com</p>
                                         </div>
                                     </div>
                                     <div className="row">
@@ -77,14 +77,7 @@ function Profile() {
                                             <p>123 456 7890</p>
                                         </div>
                                     </div>
-                                    <div className="row">
-                                        <div className="col-md-6">
-                                            <label>Profession</label>
-                                        </div>
-                                        <div className="col-md-6">
-                                            <p>Plain Java Backend Developer</p>
-                                        </div>
-                                    </div>
+                                
                                 </div>
                             
                             </div>
